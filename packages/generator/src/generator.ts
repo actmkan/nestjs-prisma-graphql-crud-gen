@@ -86,11 +86,11 @@ export async function generate(options: GeneratorOptions) {
     // generate args
     generateArgs(dmmfDocument, project, outputDir, model)
     // generate resolver
-    generateResolver(project, outputDir, model)
+    // generateResolver(project, outputDir, model)
     // generate service
-    generateService(project, outputDir, model)
+    // generateService(project, outputDir, model)
     // generate module
-    generateModule(project, outputDir, model)
+    // generateModule(project, outputDir, model)
   })
 
   // delete unused
